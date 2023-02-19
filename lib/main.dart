@@ -23,8 +23,14 @@ class App extends StatelessWidget {
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-
-    );
+    return Scaffold(
+        appBar: AppBar(
+          title: Text("Todo list"),
+        ),
+        body: Container(
+          child: Center(
+            child: Text("Olá mundo"),
+          ),
+        ));
   }
 }
